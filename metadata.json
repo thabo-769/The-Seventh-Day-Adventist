@@ -1,0 +1,6 @@
+{
+  "name": "The Seventh-day Adventist Church",
+  "description": "Official website of The Seventh-day Adventist Church. Growing in Faith, Living in Hope, Sharing God's Love.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
