@@ -231,7 +231,7 @@ export const AdminSermons: React.FC = () => {
                   value={form.title}
                   onChange={(e) => setForm({ ...form, title: e.target.value })}
                   placeholder="e.g. The Hope of His Coming"
-                  className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                  className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                 />
               </div>
 
@@ -243,7 +243,7 @@ export const AdminSermons: React.FC = () => {
                     required
                     value={form.speaker}
                     onChange={(e) => setForm({ ...form, speaker: e.target.value })}
-                    className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                    className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                   />
                 </div>
                 <div>
@@ -252,7 +252,7 @@ export const AdminSermons: React.FC = () => {
                     type="text"
                     value={form.speakerRole}
                     onChange={(e) => setForm({ ...form, speakerRole: e.target.value })}
-                    className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                    className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                   />
                 </div>
               </div>
@@ -266,7 +266,7 @@ export const AdminSermons: React.FC = () => {
                     value={form.scripture}
                     onChange={(e) => setForm({ ...form, scripture: e.target.value })}
                     placeholder="Titus 2:13"
-                    className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                    className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                   />
                 </div>
                 <div>
@@ -274,7 +274,7 @@ export const AdminSermons: React.FC = () => {
                   <select
                     value={form.category}
                     onChange={(e) => setForm({ ...form, category: e.target.value as any })}
-                    className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] bg-white"
+                    className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] bg-white"
                   >
                     <option value="Latest Sermons">Latest Sermons</option>
                     <option value="Bible Study">Bible Study</option>
@@ -291,7 +291,7 @@ export const AdminSermons: React.FC = () => {
                     value={form.duration}
                     onChange={(e) => setForm({ ...form, duration: e.target.value })}
                     placeholder="42 min"
-                    className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                    className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                   />
                 </div>
               </div>
@@ -303,7 +303,7 @@ export const AdminSermons: React.FC = () => {
                     type="text"
                     value={form.videoUrl}
                     onChange={(e) => setForm({ ...form, videoUrl: e.target.value })}
-                    className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                    className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                   />
                 </div>
                 <div>
@@ -313,7 +313,7 @@ export const AdminSermons: React.FC = () => {
                     value={form.audioUrl}
                     onChange={(e) => setForm({ ...form, audioUrl: e.target.value })}
                     placeholder="https://..."
-                    className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                    className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                   />
                 </div>
               </div>
@@ -324,7 +324,7 @@ export const AdminSermons: React.FC = () => {
                   type="text"
                   value={form.thumbnailUrl}
                   onChange={(e) => setForm({ ...form, thumbnailUrl: e.target.value })}
-                  className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                  className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                 />
               </div>
 
@@ -334,7 +334,7 @@ export const AdminSermons: React.FC = () => {
                   rows={3}
                   value={form.description}
                   onChange={(e) => setForm({ ...form, description: e.target.value })}
-                  className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                  className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                 />
               </div>
 
@@ -373,3 +373,4 @@ export const AdminSermons: React.FC = () => {
     </div>
   );
 };
+

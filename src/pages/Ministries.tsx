@@ -231,7 +231,7 @@ export const Ministries: React.FC = () => {
                           required
                           value={enquiryForm.fullName}
                           onChange={(e) => setEnquiryForm({ ...enquiryForm, fullName: e.target.value })}
-                          className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                          className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                           placeholder="e.g. Rachel Thomas"
                         />
                       </div>
@@ -242,7 +242,7 @@ export const Ministries: React.FC = () => {
                           required
                           value={enquiryForm.email}
                           onChange={(e) => setEnquiryForm({ ...enquiryForm, email: e.target.value })}
-                          className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                          className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                           placeholder="rachel@example.com"
                         />
                       </div>
@@ -254,7 +254,7 @@ export const Ministries: React.FC = () => {
                         type="tel"
                         value={enquiryForm.phone}
                         onChange={(e) => setEnquiryForm({ ...enquiryForm, phone: e.target.value })}
-                        className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                        className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                         placeholder="+1 (555) 000-0000"
                       />
                     </div>
@@ -266,7 +266,7 @@ export const Ministries: React.FC = () => {
                         required
                         value={enquiryForm.message}
                         onChange={(e) => setEnquiryForm({ ...enquiryForm, message: e.target.value })}
-                        className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                        className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                         placeholder="I would like to volunteer / receive more information..."
                       />
                     </div>

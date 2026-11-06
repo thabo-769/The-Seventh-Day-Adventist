@@ -156,7 +156,7 @@ export const AdminAnnouncements: React.FC = () => {
                   value={form.title}
                   onChange={(e) => setForm({ ...form, title: e.target.value })}
                   placeholder="e.g. Fellowship Lunch Following Divine Service"
-                  className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                  className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                 />
               </div>
 
@@ -167,7 +167,7 @@ export const AdminAnnouncements: React.FC = () => {
                   required
                   value={form.content}
                   onChange={(e) => setForm({ ...form, content: e.target.value })}
-                  className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                  className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                 />
               </div>
 
@@ -177,7 +177,7 @@ export const AdminAnnouncements: React.FC = () => {
                   <select
                     value={form.priority}
                     onChange={(e) => setForm({ ...form, priority: e.target.value as any })}
-                    className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] bg-white"
+                    className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] bg-white"
                   >
                     <option value="normal">Normal</option>
                     <option value="high">High</option>
@@ -190,7 +190,7 @@ export const AdminAnnouncements: React.FC = () => {
                     type="text"
                     value={form.date}
                     onChange={(e) => setForm({ ...form, date: e.target.value })}
-                    className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                    className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                   />
                 </div>
               </div>
@@ -217,3 +217,4 @@ export const AdminAnnouncements: React.FC = () => {
     </div>
   );
 };
+

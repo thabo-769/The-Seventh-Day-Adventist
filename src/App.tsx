@@ -38,7 +38,7 @@ function PublicLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      <main className={`flex-1 ${!isHome ? 'pt-[76px]' : ''}`}>{children}</main>
+      <main className={`flex-1 ${!isHome ? 'pt-[64px] sm:pt-[76px]' : ''}`}>{children}</main>
       <Footer />
     </div>
   );

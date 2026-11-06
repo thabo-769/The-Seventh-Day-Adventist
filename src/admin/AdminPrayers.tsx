@@ -133,7 +133,7 @@ export const AdminPrayers: React.FC = () => {
                 <select
                   value={statusInput}
                   onChange={(e) => setStatusInput(e.target.value as any)}
-                  className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] bg-white font-medium"
+                  className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] bg-white font-medium"
                 >
                   <option value="Received">Received (Pending prayer meeting)</option>
                   <option value="Prayed For">Prayed For in Intercessory Session</option>
@@ -148,7 +148,7 @@ export const AdminPrayers: React.FC = () => {
                   value={notesInput}
                   onChange={(e) => setNotesInput(e.target.value)}
                   placeholder="e.g. Uplifted at Wednesday prayer meeting; Elder Vance phoned family..."
-                  className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                  className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                 />
               </div>
 
@@ -174,3 +174,4 @@ export const AdminPrayers: React.FC = () => {
     </div>
   );
 };
+

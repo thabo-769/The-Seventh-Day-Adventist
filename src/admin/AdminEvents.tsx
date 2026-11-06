@@ -206,7 +206,7 @@ export const AdminEvents: React.FC = () => {
                   value={form.title}
                   onChange={(e) => setForm({ ...form, title: e.target.value })}
                   placeholder="e.g. Annual Youth & Pathfinder Camporee"
-                  className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                  className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                 />
               </div>
 
@@ -219,7 +219,7 @@ export const AdminEvents: React.FC = () => {
                     value={form.date}
                     onChange={(e) => setForm({ ...form, date: e.target.value })}
                     placeholder="May 15 - 17, 2026"
-                    className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                    className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                   />
                 </div>
                 <div>
@@ -229,7 +229,7 @@ export const AdminEvents: React.FC = () => {
                     value={form.time}
                     onChange={(e) => setForm({ ...form, time: e.target.value })}
                     placeholder="7:00 PM"
-                    className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                    className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                   />
                 </div>
               </div>
@@ -243,7 +243,7 @@ export const AdminEvents: React.FC = () => {
                     value={form.venue}
                     onChange={(e) => setForm({ ...form, venue: e.target.value })}
                     placeholder="Main Sanctuary & Online"
-                    className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                    className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                   />
                 </div>
                 <div>
@@ -251,7 +251,7 @@ export const AdminEvents: React.FC = () => {
                   <select
                     value={form.category}
                     onChange={(e) => setForm({ ...form, category: e.target.value as any })}
-                    className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] bg-white"
+                    className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] bg-white"
                   >
                     <option value="Evangelism">Evangelism</option>
                     <option value="Youth">Youth</option>
@@ -271,7 +271,7 @@ export const AdminEvents: React.FC = () => {
                   type="text"
                   value={form.imageUrl}
                   onChange={(e) => setForm({ ...form, imageUrl: e.target.value })}
-                  className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                  className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                 />
               </div>
 
@@ -281,7 +281,7 @@ export const AdminEvents: React.FC = () => {
                   rows={3}
                   value={form.description}
                   onChange={(e) => setForm({ ...form, description: e.target.value })}
-                  className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                  className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                 />
               </div>
 
@@ -320,3 +320,4 @@ export const AdminEvents: React.FC = () => {
     </div>
   );
 };
+

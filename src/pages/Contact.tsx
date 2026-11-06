@@ -189,7 +189,7 @@ export const Contact: React.FC = () => {
                           value={formData.fullName}
                           onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                           placeholder="e.g. Elizabeth Taylor"
-                          className="w-full px-3.5 py-2 text-xs bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                          className="w-full px-3.5 py-2 text-base bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                         />
                       </div>
                       <div>
@@ -200,7 +200,7 @@ export const Contact: React.FC = () => {
                           value={formData.email}
                           onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                           placeholder="elizabeth@example.com"
-                          className="w-full px-3.5 py-2 text-xs bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                          className="w-full px-3.5 py-2 text-base bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                         />
                       </div>
                     </div>
@@ -213,7 +213,7 @@ export const Contact: React.FC = () => {
                           value={formData.phone}
                           onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                           placeholder="+1 (555) 000-0000"
-                          className="w-full px-3.5 py-2 text-xs bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                          className="w-full px-3.5 py-2 text-base bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                         />
                       </div>
                       <div>
@@ -221,7 +221,7 @@ export const Contact: React.FC = () => {
                         <select
                           value={formData.category}
                           onChange={(e) => setFormData({ ...formData, category: e.target.value as any })}
-                          className="w-full px-3.5 py-2 text-xs bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                          className="w-full px-3.5 py-2 text-base bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                         >
                           <option value="General enquiry">General enquiry</option>
                           <option value="Prayer request">Prayer request</option>
@@ -241,14 +241,14 @@ export const Contact: React.FC = () => {
                         value={formData.message}
                         onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                         placeholder="Please write your questions, remarks, or specific prayer items here..."
-                        className="w-full px-3.5 py-2 text-xs bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                        className="w-full px-3.5 py-2 text-base bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                       />
                     </div>
 
                     <div className="pt-2">
                       <button
                         type="submit"
-                        className="w-full sm:w-auto px-8 py-3 text-xs font-semibold uppercase tracking-wider text-white bg-[#005482] hover:bg-[#004266] rounded-lg shadow-sm transition-colors flex items-center justify-center gap-2"
+                        className="w-full sm:w-auto px-8 py-3 text-base font-semibold uppercase tracking-wider text-white bg-[#005482] hover:bg-[#004266] rounded-lg shadow-sm transition-colors flex items-center justify-center gap-2"
                       >
                         <Send className="w-3.5 h-3.5" />
                         <span>Send Message to Church</span>

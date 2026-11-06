@@ -158,7 +158,7 @@ export const AdminBibleStudies: React.FC = () => {
                 <select
                   value={statusInput}
                   onChange={(e) => setStatusInput(e.target.value as any)}
-                  className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] bg-white font-medium"
+                  className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] bg-white font-medium"
                 >
                   <option value="New">New Request</option>
                   <option value="Assigned">Assigned to Teacher</option>
@@ -176,7 +176,7 @@ export const AdminBibleStudies: React.FC = () => {
                   value={teacherInput}
                   onChange={(e) => setTeacherInput(e.target.value)}
                   placeholder="e.g. Pastor Michael Vance or Elder Hannah Wilson"
-                  className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                  className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                 />
               </div>
 
@@ -202,3 +202,4 @@ export const AdminBibleStudies: React.FC = () => {
     </div>
   );
 };
+

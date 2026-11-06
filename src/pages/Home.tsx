@@ -46,7 +46,7 @@ export const Home: React.FC = () => {
   return (
     <div className="min-h-screen bg-white overflow-hidden">
       {/* 4. HOMEPAGE HERO SECTION */}
-      <section className="relative min-h-[84vh] lg:min-h-[88vh] flex items-center justify-center overflow-hidden bg-[#080B10] pt-32 pb-20 sm:pt-36 sm:pb-24 lg:pt-44 lg:pb-32">
+      <section className="relative min-h-[70vh] sm:min-h-[84vh] lg:min-h-[88vh] flex items-center justify-center overflow-hidden bg-[#080B10] pt-24 pb-16 sm:pt-32 sm:pb-20 lg:pt-44 lg:pb-32">
         {/* Background Image with Dark Gradient Scrim */}
         <div className="absolute inset-0 z-0">
           <motion.img

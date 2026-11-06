@@ -154,7 +154,7 @@ export const Giving: React.FC = () => {
                           step="1"
                           value={titheAmount}
                           onChange={(e) => setTitheAmount(e.target.value)}
-                          className="w-full pl-7 pr-3.5 py-2 text-xs bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] font-mono"
+                          className="w-full pl-7 pr-3.5 py-2 text-base bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] font-mono"
                         />
                       </div>
                     </div>
@@ -171,7 +171,7 @@ export const Giving: React.FC = () => {
                           step="1"
                           value={localBudget}
                           onChange={(e) => setLocalBudget(e.target.value)}
-                          className="w-full pl-7 pr-3.5 py-2 text-xs bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] font-mono"
+                          className="w-full pl-7 pr-3.5 py-2 text-base bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] font-mono"
                         />
                       </div>
                     </div>
@@ -188,7 +188,7 @@ export const Giving: React.FC = () => {
                           step="1"
                           value={worldMission}
                           onChange={(e) => setWorldMission(e.target.value)}
-                          className="w-full pl-7 pr-3.5 py-2 text-xs bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] font-mono"
+                          className="w-full pl-7 pr-3.5 py-2 text-base bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] font-mono"
                         />
                       </div>
                     </div>
@@ -205,7 +205,7 @@ export const Giving: React.FC = () => {
                           step="1"
                           value={communityRelief}
                           onChange={(e) => setCommunityRelief(e.target.value)}
-                          className="w-full pl-7 pr-3.5 py-2 text-xs bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] font-mono"
+                          className="w-full pl-7 pr-3.5 py-2 text-base bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] font-mono"
                         />
                       </div>
                     </div>
@@ -217,7 +217,7 @@ export const Giving: React.FC = () => {
 
                     <button
                       type="submit"
-                      className="w-full py-3 text-xs font-semibold uppercase tracking-wider text-white bg-[#005482] hover:bg-[#004266] rounded-lg shadow-sm transition-colors flex items-center justify-center gap-2"
+                      className="w-full py-3 text-base font-semibold uppercase tracking-wider text-white bg-[#005482] hover:bg-[#004266] rounded-lg shadow-sm transition-colors flex items-center justify-center gap-2"
                     >
                       <Heart className="w-3.5 h-3.5" />
                       <span>Review Stewardship Plan</span>

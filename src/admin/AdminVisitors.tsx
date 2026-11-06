@@ -193,7 +193,7 @@ export const AdminVisitors: React.FC = () => {
                 <select
                   value={statusInput}
                   onChange={(e) => setStatusInput(e.target.value as any)}
-                  className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] bg-white font-medium"
+                  className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] bg-white font-medium"
                 >
                   <option value="Pending">Pending (Not yet contacted)</option>
                   <option value="Contacted">Contacted (Welcome email / phone call completed)</option>
@@ -211,7 +211,7 @@ export const AdminVisitors: React.FC = () => {
                   value={notesInput}
                   onChange={(e) => setNotesInput(e.target.value)}
                   placeholder="e.g. Deacon Smith assigned to meet them at 10:45 AM; family interested in pathfinder club..."
-                  className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                  className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                 />
               </div>
 
@@ -237,3 +237,4 @@ export const AdminVisitors: React.FC = () => {
     </div>
   );
 };
+

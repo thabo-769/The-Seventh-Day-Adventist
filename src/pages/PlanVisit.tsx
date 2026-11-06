@@ -242,7 +242,7 @@ export const PlanVisit: React.FC = () => {
                         value={formData.fullName}
                         onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                         placeholder="e.g. David & Mary Miller"
-                        className="w-full px-3.5 py-2 text-xs bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                        className="w-full px-3.5 py-2 text-base bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                       />
                     </div>
 
@@ -255,7 +255,7 @@ export const PlanVisit: React.FC = () => {
                           value={formData.email}
                           onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                           placeholder="david@example.com"
-                          className="w-full px-3.5 py-2 text-xs bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                          className="w-full px-3.5 py-2 text-base bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                         />
                       </div>
                       <div>
@@ -265,7 +265,7 @@ export const PlanVisit: React.FC = () => {
                           value={formData.phone}
                           onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                           placeholder="+1 (555) 000-0000"
-                          className="w-full px-3.5 py-2 text-xs bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                          className="w-full px-3.5 py-2 text-base bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                         />
                       </div>
                     </div>
@@ -279,7 +279,7 @@ export const PlanVisit: React.FC = () => {
                           max="20"
                           value={formData.numberOfVisitors}
                           onChange={(e) => setFormData({ ...formData, numberOfVisitors: parseInt(e.target.value) || 1 })}
-                          className="w-full px-3.5 py-2 text-xs bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                          className="w-full px-3.5 py-2 text-base bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                         />
                       </div>
                       <div>
@@ -289,7 +289,7 @@ export const PlanVisit: React.FC = () => {
                           required
                           value={formData.preferredVisitDate}
                           onChange={(e) => setFormData({ ...formData, preferredVisitDate: e.target.value })}
-                          className="w-full px-3.5 py-2 text-xs bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                          className="w-full px-3.5 py-2 text-base bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                         />
                       </div>
                     </div>
@@ -303,13 +303,13 @@ export const PlanVisit: React.FC = () => {
                         value={formData.message}
                         onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                         placeholder="Children ages, translation needs, dietary preferences..."
-                        className="w-full px-3.5 py-2 text-xs bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                        className="w-full px-3.5 py-2 text-base bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                       />
                     </div>
 
                     <button
                       type="submit"
-                      className="w-full py-3 text-xs font-semibold uppercase tracking-wider text-white bg-[#005482] hover:bg-[#004266] rounded-lg shadow-sm transition-colors flex items-center justify-center gap-2"
+                      className="w-full py-3 text-base font-semibold uppercase tracking-wider text-white bg-[#005482] hover:bg-[#004266] rounded-lg shadow-sm transition-colors flex items-center justify-center gap-2"
                     >
                       <Send className="w-3.5 h-3.5" />
                       <span>Submit Sabbath Visit Plan</span>

@@ -46,7 +46,7 @@ export const AdminSettings: React.FC = () => {
                 required
                 value={form.churchName}
                 onChange={(e) => setForm({ ...form, churchName: e.target.value })}
-                className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
               />
             </div>
             <div>
@@ -55,7 +55,7 @@ export const AdminSettings: React.FC = () => {
                 type="text"
                 value={form.tagline}
                 onChange={(e) => setForm({ ...form, tagline: e.target.value })}
-                className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
               />
             </div>
           </div>
@@ -75,7 +75,7 @@ export const AdminSettings: React.FC = () => {
               required
               value={form.address}
               onChange={(e) => setForm({ ...form, address: e.target.value })}
-              className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+              className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
             />
           </div>
 
@@ -87,7 +87,7 @@ export const AdminSettings: React.FC = () => {
                 required
                 value={form.phone}
                 onChange={(e) => setForm({ ...form, phone: e.target.value })}
-                className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
               />
             </div>
             <div>
@@ -96,7 +96,7 @@ export const AdminSettings: React.FC = () => {
                 type="text"
                 value={form.whatsapp}
                 onChange={(e) => setForm({ ...form, whatsapp: e.target.value })}
-                className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
               />
             </div>
             <div>
@@ -106,7 +106,7 @@ export const AdminSettings: React.FC = () => {
                 required
                 value={form.email}
                 onChange={(e) => setForm({ ...form, email: e.target.value })}
-                className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
               />
             </div>
           </div>
@@ -126,7 +126,7 @@ export const AdminSettings: React.FC = () => {
                 type="text"
                 value={form.sabbathSchoolTime}
                 onChange={(e) => setForm({ ...form, sabbathSchoolTime: e.target.value })}
-                className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
               />
             </div>
             <div>
@@ -135,7 +135,7 @@ export const AdminSettings: React.FC = () => {
                 type="text"
                 value={form.divineWorshipTime}
                 onChange={(e) => setForm({ ...form, divineWorshipTime: e.target.value })}
-                className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
               />
             </div>
             <div>
@@ -144,7 +144,7 @@ export const AdminSettings: React.FC = () => {
                 type="text"
                 value={form.prayerMeetingTime}
                 onChange={(e) => setForm({ ...form, prayerMeetingTime: e.target.value })}
-                className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
               />
             </div>
           </div>
@@ -165,7 +165,7 @@ export const AdminSettings: React.FC = () => {
               rows={4}
               value={form.givingInstructions}
               onChange={(e) => setForm({ ...form, givingInstructions: e.target.value })}
-              className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+              className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
             />
           </div>
         </div>
@@ -183,3 +183,4 @@ export const AdminSettings: React.FC = () => {
     </div>
   );
 };
+

@@ -51,7 +51,7 @@ export const Gallery: React.FC = () => {
       </section>
 
       {/* Category Filter */}
-      <section className="bg-[#F5F7F9] border-b border-stone-200 py-6 sticky top-[69px] z-30 backdrop-blur-md">
+      <section className="bg-[#F5F7F9] border-b border-stone-200 py-6 sticky top-[64px] sm:top-[76px] z-30 backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap items-center gap-1.5 p-1 bg-white rounded-lg border border-stone-200 w-full sm:w-auto overflow-x-auto">
             {categories.map((c) => (

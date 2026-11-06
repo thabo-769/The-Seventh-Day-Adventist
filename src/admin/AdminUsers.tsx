@@ -155,7 +155,7 @@ export const AdminUsers: React.FC = () => {
                   value={form.name}
                   onChange={(e) => setForm({ ...form, name: e.target.value })}
                   placeholder="e.g. Elder James White"
-                  className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                  className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                 />
               </div>
 
@@ -167,7 +167,7 @@ export const AdminUsers: React.FC = () => {
                   value={form.email}
                   onChange={(e) => setForm({ ...form, email: e.target.value })}
                   placeholder="elder.james@adventistchurch.org"
-                  className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                  className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                 />
               </div>
 
@@ -176,7 +176,7 @@ export const AdminUsers: React.FC = () => {
                 <select
                   value={form.role}
                   onChange={(e) => setForm({ ...form, role: e.target.value as any })}
-                  className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] bg-white font-medium"
+                  className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] bg-white font-medium"
                 >
                   <option value="Super Administrator">Super Administrator</option>
                   <option value="Administrator">Administrator</option>
@@ -206,3 +206,4 @@ export const AdminUsers: React.FC = () => {
     </div>
   );
 };
+

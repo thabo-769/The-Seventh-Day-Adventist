@@ -88,7 +88,7 @@ export const Events: React.FC = () => {
       </section>
 
       {/* Filter and Search Bar */}
-      <section className="bg-[#F5F7F9] border-b border-stone-200 py-6 sticky top-[69px] z-30 backdrop-blur-md">
+      <section className="bg-[#F5F7F9] border-b border-stone-200 py-6 sticky top-[64px] sm:top-[76px] z-30 backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-4">
             <div className="flex flex-wrap items-center gap-1.5 p-1 bg-white rounded-lg border border-stone-200 w-full lg:w-auto overflow-x-auto">
@@ -260,7 +260,7 @@ export const Events: React.FC = () => {
                       value={formName}
                       onChange={(e) => setFormName(e.target.value)}
                       placeholder="e.g. John Doe"
-                      className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                      className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                     />
                   </div>
 
@@ -272,7 +272,7 @@ export const Events: React.FC = () => {
                       value={formEmail}
                       onChange={(e) => setFormEmail(e.target.value)}
                       placeholder="john@example.com"
-                      className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
+                      className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482]"
                     />
                   </div>
 
@@ -281,7 +281,7 @@ export const Events: React.FC = () => {
                     <select
                       value={formGuests}
                       onChange={(e) => setFormGuests(e.target.value)}
-                      className="w-full px-3.5 py-2 text-xs border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] bg-white"
+                      className="w-full px-3.5 py-2 text-base border border-stone-300 rounded-lg focus:outline-none focus:border-[#005482] bg-white"
                     >
                       <option value="1">1 Person</option>
                       <option value="2">2 People</option>
